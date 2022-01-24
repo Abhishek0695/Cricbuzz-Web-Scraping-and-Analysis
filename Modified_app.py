@@ -18,7 +18,7 @@ dict1['T20'] = all_ranks[2]
 a=dict1['Test']
 b=dict1['Odi']
 c=dict1['T20']
-
+print(a)
 def find_ranks(match_type):
     rank= match_type.find_all('div', class_= 'cb-col cb-col-16 cb-rank-tbl cb-font-16')
     player_name= match_type.find_all('div', class_='cb-col cb-col-67 cb-rank-plyr')
