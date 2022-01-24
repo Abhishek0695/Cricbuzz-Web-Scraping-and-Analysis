@@ -5,7 +5,7 @@ import smtplib
 from xlsxwriter import Workbook
 from bs4 import BeautifulSoup
 from email.message import EmailMessage
-
+#Getting the password
 email_add = os.environ.get("EMAIL_ADD")
 email_password = os.environ.get("EMAIL_PASS")
 
